@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF10F96E2C63214D00C4A9F6 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10F96D2C63214D00C4A9F6 /* EventRow.swift */; };
+		CF3B257E2C631D5500BBF11F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B257D2C631D5500BBF11F /* Event.swift */; };
+		CF3B25802C631DF700BBF11F /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B257F2C631DF700BBF11F /* EventsView.swift */; };
+		CFABC6F52C6F024E003B15A0 /* EventForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABC6F42C6F024E003B15A0 /* EventForm.swift */; };
 		CFC82E032C6209440030D137 /* event_countdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC82E022C6209440030D137 /* event_countdownApp.swift */; };
-		CFC82E052C6209440030D137 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC82E042C6209440030D137 /* ContentView.swift */; };
 		CFC82E072C6209450030D137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC82E062C6209450030D137 /* Assets.xcassets */; };
 		CFC82E0A2C6209450030D137 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC82E092C6209450030D137 /* Preview Assets.xcassets */; };
 		CFC82E142C6209460030D137 /* event_countdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC82E132C6209460030D137 /* event_countdownTests.swift */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF10F96D2C63214D00C4A9F6 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		CF3B257D2C631D5500BBF11F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CF3B257F2C631DF700BBF11F /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		CFABC6F42C6F024E003B15A0 /* EventForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventForm.swift; sourceTree = "<group>"; };
 		CFC82DFF2C6209440030D137 /* event_countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = event_countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC82E022C6209440030D137 /* event_countdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event_countdownApp.swift; sourceTree = "<group>"; };
-		CFC82E042C6209440030D137 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFC82E062C6209450030D137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC82E092C6209450030D137 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFC82E0F2C6209460030D137 /* event_countdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = event_countdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				CFC82E022C6209440030D137 /* event_countdownApp.swift */,
-				CFC82E042C6209440030D137 /* ContentView.swift */,
+				CF3B257F2C631DF700BBF11F /* EventsView.swift */,
+				CF10F96D2C63214D00C4A9F6 /* EventRow.swift */,
 				CFC82E062C6209450030D137 /* Assets.xcassets */,
 				CFC82E082C6209450030D137 /* Preview Content */,
+				CF3B257D2C631D5500BBF11F /* Event.swift */,
+				CFABC6F42C6F024E003B15A0 /* EventForm.swift */,
 			);
 			path = event_countdown;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC82E052C6209440030D137 /* ContentView.swift in Sources */,
+				CFABC6F52C6F024E003B15A0 /* EventForm.swift in Sources */,
+				CF10F96E2C63214D00C4A9F6 /* EventRow.swift in Sources */,
+				CF3B257E2C631D5500BBF11F /* Event.swift in Sources */,
 				CFC82E032C6209440030D137 /* event_countdownApp.swift in Sources */,
+				CF3B25802C631DF700BBF11F /* EventsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
